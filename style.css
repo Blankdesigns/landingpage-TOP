@@ -17,3 +17,17 @@ header p {
     font-size: 24px;
     color: #f9faf8;
 }
+button {
+    background-color: #3882f6;
+}
+.random-info p {
+    font: 900 36px #1f2937;
+}
+.quote {
+    background-color: #e5e7eb;
+}
+.quote-text {
+    font-size: 36px;
+    font-style: light italic;
+    color: #1f2937;
+}
