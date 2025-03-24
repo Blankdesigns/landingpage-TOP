@@ -4,7 +4,10 @@
 .hero, footer {
     background-color: #1F2937;
 }
-.hero-main {
+.signup-sec {
+    flex: auto;
+}
+.hero-text {
     font-size: 48px;
     color: #f9faf8;
     font-weight: 900;
