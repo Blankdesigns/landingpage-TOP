@@ -1,7 +1,7 @@
 * {
     font: Roboto, Calibri;
 }
-header, .signup-sec, footer {
+.hero, footer {
     background-color: #1F2937;
 }
 .hero-main {
