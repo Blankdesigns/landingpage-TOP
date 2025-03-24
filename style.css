@@ -1,3 +1,19 @@
 * {
     font: Roboto, Calibri;
 }
+.signup-sec, footer {
+    background-color: #1F2937;
+}
+.hero-main {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+.hero-subtext {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+header p {
+    font-size: 24px;
+    color: #f9faf8;
+}
