@@ -5,7 +5,8 @@
     background-color: #1F2937;
 }
 .signup-sec {
-    flex: auto;
+    display: flex;
+    flex: 1;
 }
 .hero-text {
     font-size: 48px;
