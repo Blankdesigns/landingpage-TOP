@@ -19,15 +19,25 @@ header ul a {
 }
 .hero, footer {
     background-color: #1F2937;
-    padding: auto;
+    padding-bottom: 20px;
 }
 .signup-sec {
     display: flex;
-    flex: 1;
+    justify-content: space-around;
+    padding-left: 50px;
+    padding-right: 50px;
 }
-.hero-top img {
-    border: 1px #f9faf8;
-    padding: 20px;
+.hero-top {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.hero .img {
+    border: 1px solid #f9faf8;
+    padding: 8px;
+    /* margin: auto;
+    height: 100%; */
+    text-wrap: nowrap;
 }
 .hero-text {
     font-size: 48px;
