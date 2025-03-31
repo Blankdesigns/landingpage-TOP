@@ -61,8 +61,11 @@ header p {
 }
 button {
     background-color: #3882f6;
-    padding: auto;
+    color: #f9faf8;
+    padding-left: 10px;
+    padding-right: 10px;
     border-radius: 5px;
+    border-color: #3882f6;
 }
 .random-info p {
     font: 900 36px #1f2937;
@@ -75,7 +78,19 @@ button {
 .four-imgs {
     display: flex;
     justify-content: space-around;
-    gap: 4px;
+    gap: 10px;
+}
+.four-imgs .imgs {
+    border: 3px solid #3882f6;
+    border-radius: 5px;
+    width: 150px;
+    height: 150px;
+}
+.four-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-wrap: wrap;
 }
 .quote {
     background-color: #e5e7eb;
