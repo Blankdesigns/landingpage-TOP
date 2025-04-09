@@ -1,5 +1,7 @@
 * {
     font-family: Roboto, Calibri;
+    padding: 0;
+    margin: 0;
 }
 header {
     display: flex;
@@ -25,9 +27,8 @@ header ul a {
 }
 .signup-sec {
     display: flex;
-    justify-content: space-around;
-    padding-left: 50px;
-    padding-right: 50px;
+    justify-content: space-between;
+    padding: 25px 50px;
 }
 .hero-top {
     display: flex;
@@ -35,24 +36,27 @@ header ul a {
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
+    margin-right: 20px;
 }
 .hero .img {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid #f9faf8;
+    border: 1px solid #868686;
+    width: 100%;
+    margin-left: 20px;
     padding: 8px;
-    background-color: #d9d9d9;
+    background-color: #868686;
     color: #f9faf8;
     text-wrap: nowrap;
 }
 .hero-text {
-    font-size: 48px;
+    font-size: 30px;
     color: #f9faf8;
     font-weight: 900;
 }
 .hero-subtext {
-    font-size: 18px;
+    font-size: 12px;
     color: #e5e7eb;
 }
 header p {
@@ -74,6 +78,10 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 20px 110px 50px;
+}
+.random-info h3 {
+    padding-bottom: 20px;
 }
 .four-imgs {
     display: flex;
@@ -91,17 +99,23 @@ button {
     flex-direction: column;
     align-items: center;
 }
+.four-info p {
+    text-align: center;
+    font-size: small;
+}
 .quote {
     background-color: #e5e7eb;
-    padding: 20px 20%;
-
+    padding: 50px 110px;
+    text-align: left;
+    
 }
 .quote-text {
     font: 36px light italic #1f2937;
 }
-/* .quote-text + p {
-    right: 0;
-} */
+.quote-text + p {
+    text-align: right;
+    font-weight: bold;
+}
 .action-call {
     display: flex;
     justify-content: space-around;
